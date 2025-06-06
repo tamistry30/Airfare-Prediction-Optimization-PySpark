@@ -4,25 +4,25 @@ This project explores how airfare pricing can be predicted and optimized using h
 
 We developed a predictive model using Apache Spark (PySpark) and applied Gradient Boosted Trees to forecast airfares, discover influential features, and explore optimization strategies that could be used by airlines to maximize revenue.
 
-## 🚀 Highlights
+##  Highlights
 - Built scalable pipelines using PySpark for cleaning, feature engineering, and model training.
 - Used GBTRegressor achieving **R² = 0.99** and **RMSE = 12.60**.
 - Investigated feature importance: time to departure, route, seasonality, layovers, and demand patterns.
 - Explored price elasticity and strategies for dynamic pricing.
 
-## 📦 Requirements
+##  Requirements
 - Python 3.x
 - Apache Spark (PySpark)
 - Jupyter Notebook
 - Libraries: `pyspark`, `pandas`, `matplotlib`, `seaborn`
 
-## 📊 Data Source
+##  Data Source
 [Kaggle: Flight Prices Dataset](https://www.kaggle.com/datasets/dilwong/flightprices)
 
-## 🙌 Contributors
+##  Contributors
 - Tejas Mistry  
 - Raghuveera Narasimha  
 - Arunava Das
 
-## 📜 License
+##  License
 This project is open source under the [MIT License](LICENSE).
